@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+.container{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0,0,0,0.6)),  url(/netflixbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%; 
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nlogo img{
+    height: 5vmin;
+    padding-left: 60px;
+    padding-top: 18px;
+    isolation: isolate;   
+}
+
+.btn button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 15vmin;
+    font-size: 2vmin;
+}
+
+.btn{
+    padding-right: 60px;
+    padding-top: 18px;
+
+}
+
+hr{
+    background-color:grey;
+    height: 5px;
+    width: 100%;
+}
+
+div .text{
+   display: flex;
+   justify-content: center;
+   padding-top: 23.5vmin;
+}
+ .txt{
+    color: white;
+    font-size: 8vmin;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 550;
+ }
+
+  span {
+    padding-left: 5vmin;
+ }
+   
+ .para{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vmin;
+ }
+ .para2{
+    color:white;
+    font-size: 4.5vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-left: -3vmin;
+    opacity: 0.8;
+ }
+
+ .ready{
+    display: flex;
+    justify-content: center;
+    padding-top: 8vmin;
+ }
+ .para1{
+    color:white;
+    font-size: 3vmin;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    opacity: 0.8;
+ }
+
+ .mail{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vmin;
+
+ }
+
+ .mail input{
+    font-size: 3vmin;
+    padding: 1vmin 3vmin;
+    width: 75vmin;
+    height:6vmin;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+ }
+
+.btn2{
+    font-size: 3vmin;
+    padding: 2vmin;
+    width: 35vmin;
+    height:8.7vmin;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: red;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.content1{
+   background-color: black;
+   height: 70vh;
+   display: flex;
+   justify-content: space-between;
+}
+
+.txt1 .tv{
+     color: white;
+     font-size: 6vmin;
+     
+}
+
+.txt1{
+   width: 50%;
+   padding: 20vmin;
+   padding-top: 25vmin;
+   font-family: sans-serif;
+   letter-spacing: 0.4vmin;
+  
+}
+
+.txt1 .para3{
+   color: white;
+   padding-top: 3vmin;
+   letter-spacing: 0.4vmin;
+}
+
+.img1{
+   width: 50%;
+}
+
+.img1 .imge{
+   padding-top: 7vmin;
+   padding-right: 35vmin;
+   width: 80vmin;
+   height: 50vmin;
+}
+
+.content2{
+   background-color: black;
+   height: 70vh;
+   display: flex;
+   justify-content: space-between;
+}
+
+.txt2 .dwld{
+   color: white;
+   font-size: 6vmin;
+   
+   
+}
+
+.txt2{
+   width: 50%;
+   padding: 20vmin;
+   padding-top: 25vmin;
+   font-family: sans-serif;
+   letter-spacing: 0.4vmin;
+  
+}
+.txt2 .para4{
+   color: white;
+   padding-top: 3vmin;
+   letter-spacing: 0.4vmin;
+   font-family: sans-serif;
+}
+
+.img2 .imge2{
+   padding-top: 7vmin;
+   padding-left: 25vmin;
+   width: 60vmin;
+   height: 60vmin;
+}
+
+.content3{
+   background-color: black;
+   height: 70vh;
+   display: flex;
+   justify-content: space-between;
+}
+
+.txt3 .watch{
+   color: white;
+   font-size: 6vmin;
+   font-family: sans-serif;
+}
+
+.txt3{
+ width: 50%;
+ padding: 20vmin;
+ padding-top: 25vmin;
+ letter-spacing: 0.4vmin;
+}
+
+.txt3 .para5{
+   color: white;
+   padding-top: 3vmin;
+   font-family: sans-serif;
+   letter-spacing: 0.4vmin;
+}
+
+.img3 .imge3{
+   padding-top: 7vmin;
+   padding-right: 25vmin;
+   width: 80vmin;
+   height: 60vmin;
+}
+
+.about{
+   background-color: black;
+   color: white;
+   height: 90vh;
+   width: 100vw;
+}
+
+.about #asked{
+    padding-left:77vmin ;
+    padding-top: 5vmin;
+    font-family: sans-serif;
+}
+
+.ques{
+   background-color: rgb(32, 31, 31);
+   height:4vmin;
+   margin-top: 1.5vmin;
+   padding-top: 1.5vmin;
+   width: 80vmin;
+   padding-left:5vmin;
+   font-family: sans-serif;
+}
+
+.questions .question{
+   padding-left: 65vmin;
+   padding-top: 5vmin;
+}
+
+
+
+.plus1{
+   padding-left: 60vmin;
+}
+
+.plus2{
+   padding-left: 46.8vmin;
+}
+
+.plus3{
+   padding-left: 56.7vmin;
+}
+
+.plus4{
+   padding-left: 59.4vmin;
+}
+
+.plus5{
+   padding-left: 48.2vmin;
+}
+
+.footer{
+   background-color: black;
+   color: white;
+   font-family: sans-serif;
+   height: 50vh;
+   padding-top: 10vmin;
+}
+
+.foot{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 5vmin;
+
+}
+
+.footer .call{
+   padding-left: 30vmin;
+   opacity: 0.8;
+}
+
+.faq {
+   opacity: 0.8;
+   padding-left: 30vmin;
+   line-height: 6vmin;  
+}
+
+.help{
+   opacity: 0.8;
+   line-height: 6vmin;
+}
+
+.account{
+   line-height: 6vmin;
+   opacity: 0.8;
+}
+.media{
+   padding-right: 40vmin;
+   opacity: 0.8;
+   line-height: 6vmin;
+}
+
+.language{
+   padding-left: 30vmin;
+   padding-top: 3vmin;
+}
+.language select{
+   background-color:rgb(32, 31, 31); 
+   color: white;
+   width: 30vmin;
+   height: 5vmin;
+}
